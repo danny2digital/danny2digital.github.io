@@ -29,15 +29,15 @@ A:hover.lower {text-decoration: none; color: red}
 <!-- InstanceEndEditable -->
 <script language="JavaScript">
 <!--
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
-
 function FP_swapImg() {//v1.0
  var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
  n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
  elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
 }
 
 function FP_getObjectByID(id,o) {//v1.0
@@ -52,274 +52,282 @@ function FP_getObjectByID(id,o) {//v1.0
 // -->
 </script>
 </head>
-<body bgcolor="#FFFFCC" onload="FP_preloadImgs(/*url*/'button5.jpg',/*url*/'button6.jpg')">
-<table width="100%" border="0">
-  <tbody><tr> 
-    <td colspan="4" height="101" background="VHS%20Website/starstwinkle.gif"><div align="center"> 
-		<font color="#FFFF00" style="font-size: 40pt"><b>Danny2Digital</b></font></div>
-      </td>
-  </tr>
-  <tr> 
-    <td width="13%" valign="top" background="VHS%20Website/starstwinkle.gif"> 
-	<p align="center"><br>
-	<br>
-	<a href="index.html">
-	<img border="0" id="img1" src="button4.jpg" height="20" width="100" alt="Back" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')" fp-style="fp-btn: Border Bottom 1" fp-title="Back"></a></p></td>
-    <td rowspan="2" width="4" background="VHS%20Website/beautiful-sunset-stars-night-sky-banner.jpg">&nbsp;</td>
-    <td width="81%" valign="top" align="left">
-	<table cellpadding="5" width="1011">
-        <tbody><tr> 
-          <td bgcolor="#FFFFCC">
-			<p align="left">
-			<b><font size="6" color="#FF0000">Terms &amp; Definitions&nbsp;&nbsp;
-			</font></b></p>
-			<div style="position: absolute; width: 46px; height: 46px; z-index: 1; left: 487px; top: 129px" id="layer1">
-				<b><font size="6" color="#FF0000">
-				<img border="0" src="VHS%20Website/icon_glossary.gif" width="40" height="39"></font></b></div>
-			<p align="left">
-			<img border="0" src="VHS%20Website/rule01.gif" width="996" height="4"></p>
-			<font size="-1" face="Arial" color="#FFFFFF"><b><table border="1" bgcolor="#FFFFCC" cellspacing="0" cellpadding="2" width="100%">
-            <tr bgcolor="#990066">
-               <td valign="top" height="22" background="../VHS%20Site/VHS%20Website/starstwinkle.gif">
-                  <center><font size="-1" color="#FFFFFF"><b>Word</b></font></center>
-               </td>
-               <td valign="top" height="22" background="../VHS%20Site/VHS%20Website/starstwinkle.gif" width="403">
-                  <center><font size="-1" color="#FFFFFF"><b>Definition</b></font></center>
-               </td>
-               <td valign="top" height="22" width="276" background="../VHS%20Site/VHS%20Website/starstwinkle.gif">
-                  <center><font size="-1" color="#FFFFFF"><b>More</b></font></center>
-               </td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  NTSC</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  PAL</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  SECAM</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  RF Modulator</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  Coax (Antenna/RF Cable)</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  Composite/RCA/AV</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  Component</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  S-Video</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  Capacitor</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  Resistor</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  Diode</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  Step Up Transformer</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  Step Down Transformer</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td valign="top" bgcolor="#FFCCFF">
-                  8-Track</td>
-               <td valign="top" bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td valign="top" bgcolor="#FFCCFF" width="276">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  Cassette</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="276">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td height="17" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td height="17" bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td height="17" width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr>
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-            <tr bgcolor="#FFFFCC">
-               <td bgcolor="#FFCCFF">
-                  &nbsp;</td>
-               <td bgcolor="#FFCCFF" width="403">
-                  &nbsp;</td>
-               <td width="276" bgcolor="#FFCCFF">
-                  &nbsp;</td>
-            </tr>
-         </table>
+<body bgcolor="#FFFFCC" onload="FP_preloadImgs(/*url*/'button6.jpg',/*url*/'button5.jpg')">
+    <div id="wrapper" style="max-width: 800px; overflow-x: hidden; margin: 0 auto">
+        <table border="0" style="width: 100%">
+            <tbody>
+                <tr>
+                    <td colspan="4" height="101" background="VHS%20Website/starstwinkle.gif">
+                        <div align="center">
+                            <font color="#FFFF00" style="font-size: 30pt"><b>
+							Danny2Digital</b></font>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="13%" valign="top" background="VHS%20Website/starstwinkle.gif">
+                        <p align="center">
+                            <br>
+                            <br>
+                            <a href="index.html">
+                                <img border="0" id="img1" src="button4.jpg" height="20" width="100" alt="Back" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')" fp-style="fp-btn: Border Bottom 1; fp-orig: 0" fp-title="Back">
+                            </a>
+                        </p>
+                    </td>
+                    <td rowspan="2" width="4" background="VHS%20Website/starstwinkle.gif">&nbsp;</td>
+                    <td width="81%" valign="top" align="left">
+                        <table cellpadding="5" width="1011" style="width: 100%">
+                            <tbody>
+                                <tr>
+                                    <td bgcolor="#FFFFCC"><!-- InstanceBeginEditable name="EditRegion3" -->
+                                        <!-- Your main content -->
+                                        <p><font size="6" color="#FF0000"><b>
+										Glossary
+			<img border="0" src="icon_glossary.gif" width="27" height="26"><br>
+			<img border="0" src="rule01.gif" width="254" height="4"></b></font></p>
+                        <table cellpadding="3" border="1" width="88%" style="width: 76%; border-collapse: collapse">
+                            <tbody>
+                                <tr valign="middle" align="center"> 
+                                    <td width="25%" background="VHS%20Website/starstwinkle.gif" style="text-align: left; border: 1px solid #000; padding: 8px">
+									<p style="text-align: center">
+									<font size="4" color="#FFFFFF"><b>Word</b></font></td>
+                                    <td width="47%" align="left" background="VHS%20Website/starstwinkle.gif" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        <p align="center">
+										<font size="4" color="#FFFFFF"><b>
+										Definition</b></font></td>
+                                    <td width="22%" background="VHS%20Website/starstwinkle.gif" style="text-align: left; border: 1px solid #000; padding: 8px">
+									<p style="text-align: center">
+									<font size="4" color="#FFFFFF"><b>More</b></font></td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        <font size="-1" face="Arial"><b>NTSC</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        <font size="-1" face="Arial"><b>PAL</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">&nbsp;</td>
+                                </tr>
+                                <!-- Repeat the above row for each article -->
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>SECAM RF
           </b></font>
-			<p align="left">
-			<br>
-			&nbsp;</p>
-            <p align="left">
-			<br>
-			<br>
-			<br>
+                                    </td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Modulator</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Coax (Antenna/RF Cable)&nbsp;
+          </b></font>
+                                    </td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Composite/RCA/AV <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Component&nbsp; <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>S-Video<br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Capacitor <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Resistor&nbsp; <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Diode&nbsp; <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Step Up Transformer <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>&nbsp;Step Down Transformer<br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>&nbsp;8-Track <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>&nbsp;Cassette<br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>RGB <br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>SCART<br>
+&nbsp;</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+			<font size="-1" face="Arial"><b>Belling Lee</b></font></td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        &nbsp;</td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        &nbsp;</td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        &nbsp;</td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                                <tr valign="top" align="left"> 
+                                    <td width="25%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+                                        &nbsp;</td>
+                                    <td width="47%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                    <td width="22%" bgcolor="#FFCCFF" style="text-align: left; border: 1px solid #000; padding: 8px">
+									&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        			<p><br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
 &nbsp;</p>
-            <p><br>
-			<b><br>
-			<br>
-			<br>
-&nbsp;</b></p>
-            <!-- InstanceEndEditable --> </td>
-        </tr>
-    </tbody></table></td>
-    <td rowspan="2" width="47" valign="top" align="left" background="VHS%20Website/starstwinkle.gif">&nbsp;</td>
-  </tr>
-  <tr> 
-    <td width="13%" valign="bottom" bgcolor="#b7dac5"><div align="right"><!-- InstanceBeginEditable name="EditRegion10" --><!-- InstanceEndEditable --></div></td>
-    <td><!-- InstanceBeginEditable name="EditRegion11" --><!-- InstanceEndEditable --> 
-    </td>
-  </tr>
-  <tr> 
-    <td colspan="4" height="25" background="VHS%20Website/starstwinkle.gif"><div align="center">
-		<font color="#FFFF00">Danny2Digital 2024</font></div></td>
-  </tr>
-</tbody></table>
+									<p>&nbsp; </p>
+                                        <!-- InstanceEndEditable -->
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td rowspan="2" width="47" valign="top" align="left" background="VHS%20Website/starstwinkle.gif">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width="13%" valign="bottom" bgcolor="#b7dac5">
+                        <div align="right"><!-- InstanceBeginEditable name="EditRegion10" --><!-- InstanceEndEditable --></div>
+                    </td>
+                    <td><!-- InstanceBeginEditable name="EditRegion11" --><!-- InstanceEndEditable -->
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" height="25" background="VHS%20Website/starstwinkle.gif">
+                        <div align="center">
+                            <font color="#FFFF00">Danny2Digital 2024</font>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
 </body><!-- InstanceEnd --></html>
