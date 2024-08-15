@@ -1,8 +1,10 @@
-<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" --><head>
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>DannyVHS Hub</title>
 <!-- InstanceEndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="File-List" href="ARTICLE%20Dualbooting_files/filelist.xml">
+
 <style type="text/css">
 <!--
 A {text-decoration: underline; color: blue}
@@ -51,13 +53,53 @@ function FP_getObjectByID(id,o) {//v1.0
 }
 // -->
 </script>
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
 </head>
 <body bgcolor="#FFFFFF" onload="FP_preloadImgs(/*url*/'button16.jpg', /*url*/'button17.jpg', /*url*/'buttonB1.jpg', /*url*/'buttonC1.jpg')">
 <table width="100%" border="0">
   <tbody><tr> 
-    <td colspan="4" height="101" background="VHS%20Website/starstwinkle.gif"><div align="center"> 
-		<font color="#FFFF00" style="font-size: 40pt"><b>Danny2Digital</b></font></div>
-      </td>
+    <td colspan="4" height="101" background="VHS%20Website/starstwinkle.gif">
+	<p align="center">
+                            <font style="font-size: 30pt" color="#FFFF00"><b><!--[if gte vml 1]><v:shapetype id="_x0000_t136"
+ coordsize="21600,21600" o:spt="136" adj="10800" path="m@7,l@8,m@5,21600l@6,21600e">
+ <v:formulas>
+  <v:f eqn="sum #0 0 10800"/>
+  <v:f eqn="prod #0 2 1"/>
+  <v:f eqn="sum 21600 0 @1"/>
+  <v:f eqn="sum 0 0 @2"/>
+  <v:f eqn="sum 21600 0 @3"/>
+  <v:f eqn="if @0 @3 0"/>
+  <v:f eqn="if @0 21600 @1"/>
+  <v:f eqn="if @0 0 @2"/>
+  <v:f eqn="if @0 @4 21600"/>
+  <v:f eqn="mid @5 @6"/>
+  <v:f eqn="mid @8 @5"/>
+  <v:f eqn="mid @7 @8"/>
+  <v:f eqn="mid @6 @7"/>
+  <v:f eqn="sum @6 0 @5"/>
+ </v:formulas>
+ <v:path textpathok="t" o:connecttype="custom" o:connectlocs="@9,0;@10,10800;@11,21600;@12,10800"
+  o:connectangles="270,180,90,0"/>
+ <v:textpath on="t" fitshape="t"/>
+ <v:handles>
+  <v:h position="#0,bottomRight" xrange="6629,14971"/>
+ </v:handles>
+ <o:lock v:ext="edit" text="t" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t136" style='width:282.75pt;
+ height:46.5pt' fillcolor="#06c" strokecolor="#9cf" strokeweight="1.5pt">
+ <v:shadow on="t" color="#900"/>
+ <v:textpath style='font-family:"Impact";v-text-kern:t' trim="t" fitpath="t"
+  string="Danny 2 Digital"/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=382 height=67
+src="ARTICLE%20Dualbooting_files/image001.gif" alt="Danny 2 Digital" v:shapes="_x0000_s1025"><![endif]></b></font></td>
   </tr>
   <tr> 
     <td width="13%" valign="top" background="VHS%20Website/starstwinkle.gif"> 
@@ -72,47 +114,44 @@ function FP_getObjectByID(id,o) {//v1.0
 	<table cellpadding="5" width="1011">
         <tbody><tr> 
           <td bgcolor="#FFFFCC"><!-- InstanceBeginEditable name="EditRegion3" --> 
-            <p><b><font size="5" color="#FF0000">How to format a second HDD on 
-			an Old PC With Multiple HDD slots + Dualbooting</font><font size="6" color="#FF0000">
+            <h2><b><u><font size="5" color="#FF0000">How to Format a Hard Drive 
+			and Dual Boot Windows 2k/XP/7</font></u><font size="6" color="#FF0000">
 			<img border="0" src="VHS%20Website/icon_glossary.gif" width="27" height="26"><br>
-			<img border="0" src="VHS%20Website/rule01.gif" width="994" height="4"></font></b></p>
-            <h2 id="step-1-open-command-prompt-as-administrator">(Please note 
-			this article is a work in progress)<br>
+			<img border="0" src="VHS%20Website/rule01.gif" width="994" height="4"></font></b><br>
 			<br>
-			STEP 1:&nbsp;&nbsp;&nbsp; Open Command Prompt As Administrator<br>
-&nbsp;</h2>
-			<p>Search for command prompt, right click and run as Administrator.<br>
+			<u><b><font size="5">Formatting the Hard Drive</font></b></u><font size="4"><b><br>
 			<br>
-&nbsp;</p>
-			<h2 id="step-2-use-diskpart">STEP 2:&nbsp;&nbsp;&nbsp; Use Diskpart</h2>
+			STEP 1:&nbsp;&nbsp;&nbsp; Open Command Prompt As Administrator</b></font></h2>
+			<h2 id="step-7-format-the-drive"><font size="4">STEP 2:&nbsp;&nbsp;&nbsp; Use Diskpart</font></h2>
 			<div>
 				Once command line is open, type '<strong>diskpart</strong>' and 
-				press Enter.<h2 id="step-3-type-list-disk">STEP 3:&nbsp;&nbsp;&nbsp; Type List 
-				Disk</h2>
+				press Enter.<h2 id="step-7-format-the-drive"><font size="4">STEP 3:&nbsp;&nbsp;&nbsp; Type List 
+				Disk</font></h2>
 				<div>
 					The above command will open a Diskpart window. In this 
 					window, type '<strong>list disk</strong>' and press Enter. 
-					It will list all the available drives.<h2 id="step-4-select-the-drive-to-format">
-					STEP 4:&nbsp;&nbsp;&nbsp; Select the Drive to Format</h2>
+					It will list all the available drives.<h2 id="step-7-format-the-drive">
+					<font size="4">STEP 4:&nbsp;&nbsp;&nbsp; Select the Drive to Format</font></h2>
 					<div>
 						Now type '<strong>select disk (disk number)</strong>' as 
 						shown above. Specify the drive number which needs to be 
-						formatted.<h2 id="step-5-clean-the-disk">STEP 5:&nbsp;&nbsp;&nbsp; 
-						Clean the Disk</h2>
+						formatted.<h2 id="step-7-format-the-drive">
+						<font size="4">STEP 5:&nbsp;&nbsp;&nbsp; 
+						Clean the Disk</font></h2>
 						<div>
 							In this step, type '<strong>clean</strong>'. This 
 							command will permanent delete all files and folders, 
-							and successfully clean up the disk.<h2 id="step-6-create-partition-primary">
-							STEP 6:&nbsp;&nbsp;&nbsp; Create Partition Primary</h2>
+							and successfully clean up the disk.<h2 id="step-7-format-the-drive">
+							<font size="4">STEP 6:&nbsp;&nbsp;&nbsp; Create Partition Primary</font></h2>
 							<div>
 								To make the drive again accessible, type '<strong>create 
 								partition primary</strong>'.<h2 id="step-7-format-the-drive">
-								STEP 7:&nbsp;&nbsp;&nbsp; Format the Drive</h2>
+								<font size="4">STEP 7:&nbsp;&nbsp;&nbsp; Format the Drive</font></h2>
 								<div>
 									Now format the drive with FAT or NTFS file 
 									system. Type '<strong>format fs=ntfs</strong>' 
 									and press Enter.<h2 id="step-8-assign-a-drive-letter">
-									STEP 8:&nbsp;&nbsp;&nbsp; Assign a Drive Letter</h2>
+									<font size="4">STEP 8:&nbsp;&nbsp;&nbsp; Assign a Drive Letter</font></h2>
 									<div>
 										To assign a drive letter, you can type '<strong>assign</strong>'
 										<br>
@@ -146,45 +185,69 @@ function FP_getObjectByID(id,o) {//v1.0
 										<br>
 										Once that is assigned you should be good 
 										and able to dualboot once you reboot the 
-										computer with usb or cd<br>
-										<br>
-&nbsp;<h2 id="step-8-assign-a-drive-letter">Dualbooting <br>
-&nbsp;</h2>
+										computer with usb or cd<h2 id="step-8-assign-a-drive-letter">
+										<u>Dual booting Windows XP &amp; 7</u></h2>
 										<div>
 											This method will work for any OS 
 											(though i only tried it with windows 
 											7 as the first OS so responsibility 
 											is on you for how you go about doing 
 											this)<br>
-											Follow this guide and go to option 
-											2: https://www.sevenforums.com/tutorials/8057-dual-boot-installation-windows-7-xp.html?ltr=D<br>
+											If you want a dual boot with Windows 
+											7 first on same HDD, you must go to 
+											Computer Management &gt; Disk 
+											Management &gt; Create Partition &gt; 
+											Restart PC &amp; boot CD.<br>
+											For a separate HDD ignore this and 
+											go straight ahead to installing XP 
+											on the cd. Make sure that the CD/DVD 
+											drive is selected first in the boot 
+											order in the BIOS. <br>
+											<br>
+											It should show a blue screen From XP 
+											Setup, Press Enter. Select the 
+											partition (step 1) or hard drive 
+											that you want to install XP on using 
+											the arrow keys and press Enter. 
+											Finish installing XP.<br>
 											<br>
 											Once the second OS (in this case XP 
 											is installed) make sure you download 
 											EasyBCD and have the required Net 
 											framework installed from an offline 
 											installer (tons can be found 
-											online). Now all you need to do is 
-											follow the remaining of their steps 
-											from 8 onwards in option 2. <br>
+											online). <br>
 											<br>
-											Cheers!<br>
-&nbsp;</div>
+											Run EasyBCD (free version).<br>
+											NOTE: This is required to repair the 
+											Windows 7 boot file and add XP to 
+											the Windows Boot Manager list.<br>
+											<br>
+											9. On the left side of EasyBCD, 
+											click on the Add New Entry button. 
+											(See screenshot below)<br>
+											A) In the top section under 
+											Operating Systems, click on the 
+											Windows tab. (See screenshot below)<br>
+											B) To the right of Type, select 
+											Windows NT/2k/XP/2k3 from the drop 
+											down menu. (See screenshot below)<br>
+											WARNING: Be sure to leave the 
+											Automatically detect correct drive 
+											box checked.<br>
+											<br>
+											C) To the right of Name, you can 
+											leave the default Microsoft Windows 
+											XP as the name to be displayed in 
+											the Windows Boot Manager, or you can 
+											type whatever name you would like to 
+											have instead. <br>
+											D) Click on the Add Entry button.</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<p><br>
-						Resources used and credits:<br>
-						https://www.tomshardware.com/news/format-hard-drive-command-prompt,37632.html<br>
-						https://www.sevenforums.com/tutorials/8057-dual-boot-installation-windows-7-xp.html?ltr=D<br>
-						https://www.youtube.com/watch?v=mWRewE5GIcE video on 
-						steps 8 onwards for easyBCD<br>
-						Sources on dualbooting (XP 2k era) https://www.sevenforums.com/installation-setup/68954-multi-boot-win-7x64-win2000x32.html<br>
-						how to boot from second hdd
-						<a class="anchor-1MIwyf anchorUnderlineOnHover-2qPutX" title="https://superuser.com/questions/1159354/how-to-dual-boot-two-separate-hard-drives-with-os-already-installed" target="_blank" rel="ugc" href="https://superuser.com/questions/1159354/how-to-dual-boot-two-separate-hard-drives-with-os-already-installed">
-						https://superuser.com/questions/1159354/how-to-dual-boot-two-separate-hard-drives-with-os-already-installed</a><br>
-						Insert both hard drives and find which hard drive the 
+						<p>Insert both hard drives and find which hard drive the 
 						system boots into. The OS which gets booted will be 
 						managing the bootloader for the system Install EasyBCD 
 						(a free, easy to use software to manage your boot menu) 
@@ -198,14 +261,12 @@ function FP_getObjectByID(id,o) {//v1.0
 						to boot into. Note: If your bootmenu time is set to 
 						zero, the boot menu might not show up, so increase that 
 						time, it can also be done in EasyBCD.<br>
-&nbsp;</div>
+						<br>
+						Original guide
+						<a href="https://www.sevenforums.com/tutorials/8057-dual-boot-installation-windows-7-xp.html?ltr=D">
+						https://www.sevenforums.com/tutorials/8057-dual-boot-installation-windows-7-xp.html?ltr=D</a></div>
 				</div>
 			</div>
-			<p align="left">
-			<br>
-			<b>
-			<br>
-&nbsp;</b></p>
             <!-- InstanceEndEditable --> </td>
         </tr>
     </tbody></table></td>
